@@ -1,0 +1,59 @@
+
+.weatherTitle {
+  display: flex;
+  margin-bottom: -1em;
+  justify-content: center;
+}
+
+.weatherbox {
+  padding: 5px;
+  width: 15em;
+  height: 15em;
+  margin: 4em auto;
+  color: black;
+  font-weight: bold;
+  font-size: 2em;
+  justify-content: center;
+  text-align: center;
+  background-image: url("https://j.gifs.com/vQJxxY.gif");
+  background-repeat: no-repeat;
+  background-size: 15em 15em;
+}
+
+.searchfield {
+  display: flex;
+  flex-direction: row;
+  margin: -5em auto;
+  justify-content: center;
+  text-align: center;
+}
+
+.text {
+  font-size: .5em;
+}
+
+.invisible {
+  display: none;
+}
+
+
+
+/*dropbox*/
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content{
+  display: block;
+}
